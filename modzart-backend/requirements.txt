@@ -1,0 +1,30 @@
+# Core dependencies
+fastapi==0.103.1
+uvicorn==0.23.2
+sqlalchemy==2.0.20
+pydantic==2.3.0
+python-multipart==0.0.6
+psycopg2-binary==2.9.7
+alembic==1.12.0
+
+# Authentication and security
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-dotenv==1.0.0
+
+# Storage
+boto3==1.28.40
+aiofiles==23.1.0
+
+# Caching
+redis==4.6.0
+
+# API integrations
+requests==2.31.0
+aiohttp==3.8.5
+
+# Development
+pytest==7.4.0
+black==23.7.0
+isort==5.12.0
