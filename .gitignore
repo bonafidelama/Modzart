@@ -1,0 +1,16 @@
+# Root level ignores
+node_modules/
+venv/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
